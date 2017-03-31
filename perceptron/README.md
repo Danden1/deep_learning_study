@@ -1,6 +1,6 @@
 퍼셉트론(perceptron)
 
-![perceptron](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/1.pdf)
+![perceptron](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/1.jpg)
 
 y = 0 (b + x1*w1 + x2*w2 <= 0)
 
@@ -17,7 +17,7 @@ and 같은 경우는 둘다 참이여야 되니까
 
 하지만 xor은 표현이 불가능하다. 하지만 퍼셉트론을 적절히 조합하면, 표현가능하다.
 
-![xor](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/3.pdf)
+![xor](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/3.jpg)
 
 ![erceptron](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/2.png)
 
