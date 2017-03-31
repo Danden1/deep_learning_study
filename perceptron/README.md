@@ -19,7 +19,7 @@ and 같은 경우는 둘다 참이여야 되니까
 
 ![xor](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/3.jpg)
 
-![erceptron](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/2.png)
+![erceptron](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/2.jpg)
 
 
 이러한 것을 다층 퍼셉트론이라고 한다. 소스는 perceptron 폴더 안에 들어있다.
