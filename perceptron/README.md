@@ -1,8 +1,8 @@
-퍼셉트론(perceptron)
+## 퍼셉트론(perceptron)
 
 ![perceptron](https://github.com/Danden1/deep_learning_study/blob/master/perceptron/1.jpg)
 
-y = 0 (b + x1*w1 + x2*w2 <= 0)
+    y = 0 (b + x1*w1 + x2*w2 <= 0)
 
     1 (b + x1*w1 + x2*w2 > 0)
 
