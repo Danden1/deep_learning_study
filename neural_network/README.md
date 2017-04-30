@@ -2,7 +2,7 @@
 
 활성화 함수(h(x)) : 신호의 총합을 출력 신호로 변환하는 함수
 
-![h(x)](https://github.com/Danden1/deep_learning_study/neural_network/img/1.png)
+![h(x)](https://github.com/Danden1/deep_learning_study/blob/master/neural_network/img/1.png)
 
 활성화 함수 종류
 
@@ -14,7 +14,7 @@ h(x) = 0 (x <= 0)  or 1 (x>0)
 
 ex) h(x) = ax,  h(h(h(x))) = a^3x, a^3 =c , h(h(h(x))) = cx
 
-![step_func](https://github.com/Danden1/deep_learning_study/neural_network/img/2.png)
+![step_func](https://github.com/Danden1/deep_learning_study/blob/master/neural_network/img/2.png)
 
 
 2. 시그모이드 함수
@@ -23,7 +23,7 @@ h(x) = 1/(1+e^(-x))
 
 비선형함수. 은닉층에 사용하기 좋다. 신경만 분야에서 오래 전 부터 사용해 왔다.
 
-![s_func](https://github.con/Danden1/deep_learning_study/neural_network/img/3.png)
+![s_func](https://github.com/Danden1/deep_learning_study/blob/master/neural_network/img/3.png)
 
 3. ReLU함수
 
@@ -31,7 +31,7 @@ h(x) = x (x>0) or 0 (x <=0)
 
 최근에 많이 사용하는 함수.
 
-![ReLU](https://github.com/Danden1/deep_learning_study/neural_network/img/4.png)
+![ReLU](https://github.com/Danden1/deep_learning_study/blob/master/neural_network/img/4.png)
 
 
 
@@ -40,17 +40,17 @@ h(x) = x (x>0) or 0 (x <=0)
 
 1. 행렬의 내적(행렬 곱)
 
-![ca](https://github.com/Danden1/deep_learning_study/neural_network/img/5.png)
+![ca](https://github.com/Danden1/deep_learning_study/blob/master/neural_network/img/5.png)
 
 주의! A의 열 수와 B의 행 수는 같아야 된다!
 
 2. 신경망의 내적
 
-![ca](https://github.com/Danden1/deep_learning_study/neural_network/img/6.png)
+![ca](https://github.com/Danden1/deep_learning_study/blob/master/neural_network/img/6.png)
 
 3. 3층 신경망 구현
 
-![neural_network](https://github.com/Danden1/deep_learning_study/neural_network/img/7.png)
+![neural_network](https://github.com/Danden1/deep_learning_study/blob/master/neural_network/img/7.png)
 
 (1)신호전달 구현
 
@@ -70,7 +70,7 @@ W = ([w11, w21, w31], [w12, w22, w32]) //가중치
 
 소프트맥스 함수
 
-![softmax_func]((https://github.com/Danden1/deep_learning_study/neural_network/img/8.png)
+![softmax_func](https://github.com/Danden1/deep_learning_study/blob/master/neural_network/img/8.png)
 
 소프트맥스 함수를 적용해도 각 원소의 대소 관계는 변하지 않는다. 그래서 추론단계에서는 사용하지 않고, 학습시킬 때만 출력층에서 소프트맥스 함수를 사용한다.
 
